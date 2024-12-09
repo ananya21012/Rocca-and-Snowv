@@ -15,14 +15,14 @@ This is a Python implementation, so there is no need for traditional compilation
 To run the compiled binary with test inputs, use the following command:
 
 ```bash
-./snowv < t1
+python snowv.py < t1
 ```
 
 Replace `t1` with the name of the desired test input file (e.g., `t2` or `t3`).
 
 ### Example:
 ```bash
-./snowv < t2
+python snowv.py < t2
 ```
 
 ## Input Format
@@ -37,7 +37,7 @@ The program outputs the keystream or the result of encryption to the standard ou
 
 ### Example:
 ```bash
-./snow_v < t3 > output.txt
+python snowv.py < t3 > output.txt
 ```
 
 This will save the output to `output.txt`.
