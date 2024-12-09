@@ -1,5 +1,4 @@
 # Rocca-and-Snowv
-# README: SNOW-V Implementation
 
 This repository contains a basic implementation of the SNOW-V and Rocca stream cipher in python and a comparison of their performance for various input sizes of plaintext. Below are instructions for compiling and running the implementation.
 
