@@ -1,0 +1,144 @@
+#TEST VECTOR1
+#Enter 16 hex values for nonce: 
+"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+#Enter 16 hex values for key: 
+"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+#Enter 16 hex values for associated_data: 
+"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+#Enter 16 hex values for message: 
+"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+Ciphertext='''
+15 89 2F 85
+55 AD 2D B4
+74 9B 90 92
+65 71 C4 B8
+C2 8B 43 4F
+27 77 93 C5
+38 33 CB 6E
+41 A8 55 29
+17 84 A2 C7
+FE 37 4B 34
+D8 75 FD CB
+E8 4F 5B 88
+BF 3F 38 6F
+22 18 F0 46
+A8 43 18 56
+50 26 D7 55
+'''
+
+Tag='''
+CC 72 8C 8B
+AE DD 36 F1
+4C F8 93 8E
+9E 07 19 BF
+'''
+
+#TEST VECTOR2
+#Enter 16 hex values for nonce: 
+"01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01"
+#Enter 16 hex values for key: 
+"01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01"
+#Enter 16 hex values for associated_data: 
+"01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01"
+#Enter 16 hex values for message: 
+"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+Ciphertext='''
+F9 31 A8 73
+0B 2E 8A 3A
+F3 41 C8 3A
+29 C3 05 25
+32 5C 17 03
+26 C2 9D 91
+B2 4D 71 4F
+EC F3 85 FD
+88 E6 50 EF
+2E 2C 02 B3
+7B 19 E7 0B
+B9 3F F8 2A
+A9 6D 50 C9
+FD F0 53 43
+F6 E3 6B 66
+EE 7B DA 69
+'''
+
+Tag='''
+BA D0 A5 36
+16 59 9B FD
+B5 53 78 8F
+DA AB AD 78
+'''
+
+
+#TEST VECTOR3
+#Enter 16 hex values for nonce: 
+"01 23 45 67 89 ab cd ef 01 23 45 67 89 ab cd ef"
+#Enter 16 hex values for key: 
+"01 23 45 67 89 ab cd ef 01 23 45 67 89 ab cd ef 01 23 45 67 89 ab cd ef 01 23 45 67 89 ab cd ef"
+#Enter 16 hex values for associated_data: 
+"01 23 45 67 89 ab cd ef 01 23 45 67 89 ab cd ef 01 23 45 67 89 ab cd ef 01 23 45 67 89 ab cd ef"
+#Enter 16 hex values for message: 
+"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+Ciphertext='''
+26 5B 7E 31
+41 41 FD 14
+82 35 A5 30
+5B 21 7A B2
+91 A2 A7 AE
+FF 91 EF D3
+AC 60 3B 28
+E0 57 61 09
+72 34 22 EF
+3F 55 3B 0B
+07 CE 72 63
+F6 35 02 A0
+05 91 DE 64
+8F 3E E3 B0
+54 41 D8 31
+3B 13 8B 5A
+
+'''
+
+Tag='''
+66 72 53 4A
+8B 57 C2 87
+BC F5 68 23
+CD 1C DB 5A
+'''
+
+
+#TEST VECTOR4
+#Enter 16 hex values for nonce: 
+"44 44 44 44 44 44 44 44 44 44 44 44 44 44 44 44"
+#Enter 16 hex values for key: 
+"11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22"
+#Enter 16 hex values for associated_data: 
+"80 81 82 83 84 85 86 87 88 89 8a 8b 8c 8d 8e 8f 90 91"
+#Enter 16 hex values for message: 
+"00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f 20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f"
+Ciphertext='''
+34 8B 6F 6E
+FA D8 07 D2
+46 EB F3 45
+E7 30 D8 3E
+59 63 BD 6D
+29 EE DC 49
+A1 35 40 54
+5A E2 32 A7
+03 4E D4 EF
+19 8A 1E B1
+F8 B1 16 A1
+76 03 54 B7
+72 60 D6 F2
+CC A4 6E FC
+AD FC 47 65
+FF FE 9F 09
+'''
+
+Tag='''
+A9 F2 06 94
+56 55 9D E3
+E6 9D 23 3E
+15 4B A0 5E
+'''
+
+
